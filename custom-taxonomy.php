@@ -31,5 +31,4 @@ $args = [
 register_taxonomy( "slider_category", [ "slider" ], $args );
 }
 add_action( 'init', 'register_slider_category' );
-
 ?>

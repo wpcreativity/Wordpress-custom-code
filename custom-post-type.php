@@ -29,7 +29,7 @@ $arys = array(
         'supports' => array( 'title', 'editor', 'excerpt','thumbnail')
 
 );
-register_post_type( 'slider', $arys);
+        register_post_type( 'slider', $arys);
 }
 
 add_action('init', 'slider_custom_post_type');
