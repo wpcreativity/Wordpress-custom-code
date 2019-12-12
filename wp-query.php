@@ -24,4 +24,4 @@
     </div>
 </div>
 
-<?php endwhile; endwhile; wp_reset_query();?>
+<?php endwhile; endif; wp_reset_query();?>
