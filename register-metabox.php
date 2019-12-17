@@ -38,7 +38,7 @@ function save_meta_box_values($post_id, $post){
 add_action('save_post', 'save_meta_box_values', 10, 2);
 
 
-//Use this code in functions.php file
+//Use this code in Template file where you want to fetch metabox values.
 ?>
 <div id="primary" class="content-area">
         <main id="main" class="site-main">
