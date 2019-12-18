@@ -1,6 +1,6 @@
 <?php
 //add this code in functions.php
-// Shortcode: [my_ajax_filter_search]
+// Shortcode: [my_ajax_filter_search].
 function my_ajax_filter_search_shortcode() {
 	my_ajax_filter_search_scripts();
     ob_start(); ?>
